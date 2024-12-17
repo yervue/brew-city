@@ -1,0 +1,37 @@
+.admin-container {
+    padding: 20px;
+  }
+  
+  .add-user,
+  .edit-user {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgb(44, 18, 150);
+
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .logout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: darkred;
+  }
+  

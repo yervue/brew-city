@@ -1,0 +1,41 @@
+.home{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: black;
+}
+.btn {
+    background-color: #2694a0; /* Green */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 15px 32px; /* Add padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow the button to be inline */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change the cursor to pointer when hovered */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Add transition effects */
+  }
+  
+  /* Hover effect for the button */
+  .btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+  }
+  
+  /* Focus effect for the button */
+  .btn:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 5px 2px rgba(72, 239, 128, 0.6); /* Glow effect on focus */
+  }
+  
+  /* Active effect for the button */
+  .btn:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    transform: scale(1); /* Reset the size when the button is clicked */
+  }
+  

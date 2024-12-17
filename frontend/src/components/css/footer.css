@@ -1,0 +1,22 @@
+/* Footer container */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #5fb5e6;
+    color: rgb(11, 11, 11);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  
+  /* Footer text */
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Optional: Footer text hover effect */
+  .footer p:hover {
+    color: #00bcd4;
+  }
+  

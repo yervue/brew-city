@@ -1,0 +1,56 @@
+/* booking.css */
+.booking-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .booking-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .booking-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .booking-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .booking-table td {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .booking-table td[colspan='3'] {
+    text-align: center;
+    color: #888;
+  }
+  
+
+  
